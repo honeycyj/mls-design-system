@@ -14,8 +14,7 @@
       }
     ],
     "tokenCount": 231,
-    "normalizedNames": true,
-    "codeTokenCount": 231
+    "preserveFigmaNames": true
   },
   "modes": [
     "light",
@@ -24,105 +23,105 @@
   "tokens": {
     "color": {
       "text": {
-        "primary": {
+        "text-primary": {
           "light": "#000000",
           "dark": "#FFFFFF"
         },
-        "secondary": {
+        "text-secondary": {
           "light": "rgba(0, 0, 0, 0.7)",
           "dark": "rgba(255, 255, 255, 0.7)"
         },
-        "tertiary": {
+        "text-tertiary": {
           "light": "rgba(0, 0, 0, 0.4)",
           "dark": "rgba(255, 255, 255, 0.4)"
         },
-        "disabled": {
+        "text-disabled": {
           "light": "rgba(0, 0, 0, 0.2)",
           "dark": "rgba(255, 255, 255, 0.2)"
         },
-        "brand": {
+        "text-brand": {
           "light": "#782CE8",
           "dark": "#AA70FF"
         },
-        "onbrand": {
+        "text-onbrand": {
           "light": "#FFFFFF",
           "dark": "#FFFFFF"
         },
-        "onbrand-secondary": {
+        "text-onbrand-secondary": {
           "light": "rgba(255, 255, 255, 0.7)",
           "dark": "rgba(255, 255, 255, 0.7)"
         },
-        "onbrand-disabled": {
+        "text-onbrand-disabled": {
           "light": "rgba(255, 255, 255, 0.2)",
           "dark": "rgba(255, 255, 255, 0.2)"
         },
-        "brand-muted": {
+        "text-brand-muted": {
           "light": "#C094FF",
           "dark": "#C094FF"
         },
-        "success": {
+        "text-success": {
           "light": "#85E0A3",
           "dark": "#85E0A3"
         },
-        "danger": {
+        "text-danger": {
           "light": "#F87171",
           "dark": "#F87171"
         },
-        "warning": {
+        "text-warning": {
           "light": "#F97316",
           "dark": "#FFCD29"
         },
-        "info": {
+        "text-info": {
           "light": "#0D99FF",
           "dark": "#80CAFF"
         }
       },
       "icon": {
-        "primary": {
+        "icon-primary": {
           "light": "rgba(0, 0, 0, 0.9)",
           "dark": "#FFFFFF"
         },
-        "secondary": {
+        "icon-secondary": {
           "light": "rgba(255, 255, 255, 0.7)",
           "dark": "rgba(255, 255, 255, 0.7)"
         },
-        "tertiary": {
+        "icon-tertiary": {
           "light": "rgba(255, 255, 255, 0.4)",
           "dark": "rgba(255, 255, 255, 0.4)"
         },
-        "disabled": {
+        "icon-disabled": {
           "light": "rgba(255, 255, 255, 0.2)",
           "dark": "rgba(255, 255, 255, 0.2)"
         },
-        "brand": {
+        "icon-brand": {
           "light": "#9146FF",
           "dark": "#AA70FF"
         },
-        "onbrand": {
+        "icon-onbrand": {
           "light": "#FFFFFF",
           "dark": "#FFFFFF"
         },
-        "onbrand-secondary": {
+        "icon-onbrand-secondary": {
           "light": "rgba(255, 255, 255, 0.7)",
           "dark": "rgba(255, 255, 255, 0.7)"
         },
-        "onbrand-disabled": {
+        "icon-onbrand-disabled": {
           "light": "rgba(255, 255, 255, 0.2)",
           "dark": "rgba(255, 255, 255, 0.2)"
         },
-        "success": {
+        "icon-success": {
           "light": "#14AE5C",
           "dark": "#85E0A3"
         },
-        "warning": {
+        "icon-warning": {
           "light": "#F97316",
           "dark": "#FFCD29"
         },
-        "danger": {
+        "icon-danger": {
           "light": "#EF4444",
           "dark": "#F87171"
         },
-        "info": {
+        "icon-info": {
           "light": "#0D99FF",
           "dark": "#80CAFF"
         }
@@ -140,7 +139,7 @@
         "800": "#451193",
         "900": "#32126F",
         "950": "#21124D",
-        "default": {
+        "trans": {
           "light": "#9146FF",
           "dark": "#9146FF",
           "trans": {
@@ -148,7 +147,7 @@
             "dark": "#9146FF"
           }
         },
-        "trans": {
+        "brand": {
           "light": "#9146FF",
           "dark": "#9146FF",
           "trans": {
@@ -158,240 +157,242 @@
         }
       },
       "border": {
-        "subtle": {
+        "border-subtle": {
           "light": "rgba(0, 0, 0, 0.05)",
           "dark": "rgba(255, 255, 255, 0.05)"
         },
-        "default": {
+        "border-default": {
           "light": "rgba(0, 0, 0, 0.1)",
           "dark": "rgba(255, 255, 255, 0.1)"
         },
-        "strong": {
+        "border-strong": {
           "light": "rgba(0, 0, 0, 0.15)",
           "dark": "rgba(255, 255, 255, 0.15)"
         },
-        "hover": {
+        "border-hover": {
           "light": "rgba(0, 0, 0, 0.15)",
           "dark": "rgba(255, 255, 255, 0.15)"
         },
-        "selected": {
+        "border-selected": {
           "light": "#9146FF",
           "dark": "#AA70FF"
         },
-        "focus": {
+        "border-focus": {
           "light": "#AA70FF",
           "dark": "#AA70FF"
         },
-        "disabled": {
+        "border-disabled": {
           "light": "rgba(0, 0, 0, 0.03)",
           "dark": "rgba(255, 255, 255, 0.03)"
         },
-        "onbrand": {
+        "border-onbrand": {
           "light": "rgba(255, 255, 255, 0.1)",
           "dark": "rgba(255, 255, 255, 0.1)"
         },
-        "success": {
+        "border-success": {
           "light": "#14AE5C",
           "dark": "#14AE5C"
         },
-        "warning": {
+        "border-warning": {
           "light": "#F97316",
           "dark": "#F97316"
         },
-        "danger": {
+        "border-danger": {
           "light": "#EF4444",
           "dark": "#EF4444"
         },
-        "info": {
+        "border-info": {
           "light": "#0D99FF",
           "dark": "#0D99FF"
         }
       },
       "surface": {
-        "canvas": {
+        "surface-canvas": {
           "light": "#ECECEF",
           "dark": "#090909"
         },
-        "page": {
+        "surface-page": {
           "light": "#FBFBFC",
           "dark": "#161617"
         },
-        "base": {
+        "surface-base": {
           "light": "#FBFBFC",
           "dark": "#161617"
         },
-        "panel": {
+        "surface-panel": {
           "light": "#F1F1F4",
           "dark": "#1E1E20"
         },
-        "card": {
+        "surface-card": {
           "light": "#FFFFFF",
           "dark": "#262628"
         },
-        "input": {
+        "surface-input": {
           "light": "#E4E4E8",
           "dark": "#2F2F31"
         },
-        "floating": {
+        "surface-floating": {
           "light": "#FFFFFF",
           "dark": "#38383B"
         },
-        "popover": {
+        "surface-popover": {
           "light": "#DCDCE0",
           "dark": "#38383B"
         },
-        "dialog": {
+        "surface-dialog": {
           "light": "#D2D2D7",
           "dark": "#444447"
         },
-        "toast": {
+        "surface-toast": {
           "light": "#D2D2D7",
           "dark": "#38383B"
         },
-        "overlay": {
+        "surface-overlay": {
           "light": "rgba(0, 0, 0, 0.4)",
           "dark": "rgba(0, 0, 0, 0.7)"
         },
-        "tooltip": {
+        "surface-tooltip": {
           "light": "#222224",
           "dark": "#222224"
         }
       },
       "bg": {
-        "default": {
-          "light": "#FBFBFC",
-          "dark": "#000000"
+        "bg": {
+          "bg-default": {
+            "light": "#FBFBFC",
+            "dark": "#000000"
+          },
+          "bg-hover": {
+            "light": "rgba(0, 0, 0, 0.05)",
+            "dark": "rgba(255, 255, 255, 0.05)"
+          },
+          "bg-active": {
+            "light": "rgba(0, 0, 0, 0.1)",
+            "dark": "rgba(255, 255, 255, 0.1)"
+          },
+          "bg-selected": {
+            "light": "#EAE4FA",
+            "dark": "#5C16C5"
+          },
+          "bg-overlay": {
+            "light": "rgba(0, 0, 0, 0.4)",
+            "dark": "rgba(0, 0, 0, 0.4)"
+          },
+          "bg-scrim": {
+            "light": "rgba(0, 0, 0, 0.7)",
+            "dark": "rgba(0, 0, 0, 0.7)"
+          },
+          "bg-disabled": {
+            "light": "rgba(0, 0, 0, 0.03)",
+            "dark": "rgba(255, 255, 255, 0.03)"
+          }
         },
-        "hover": {
-          "light": "rgba(0, 0, 0, 0.05)",
-          "dark": "rgba(255, 255, 255, 0.05)"
-        },
-        "active": {
-          "light": "rgba(0, 0, 0, 0.1)",
-          "dark": "rgba(255, 255, 255, 0.1)"
-        },
-        "selected": {
-          "light": "#EAE4FA",
-          "dark": "#5C16C5"
-        },
-        "overlay": {
-          "light": "rgba(0, 0, 0, 0.4)",
-          "dark": "rgba(0, 0, 0, 0.4)"
-        },
-        "scrim": {
-          "light": "rgba(0, 0, 0, 0.7)",
-          "dark": "rgba(0, 0, 0, 0.7)"
-        },
-        "disabled": {
-          "light": "rgba(0, 0, 0, 0.03)",
-          "dark": "rgba(255, 255, 255, 0.03)"
-        },
-        "brand": {
-          "default": {
+        "bg-brand": {
+          "brand-default": {
             "light": "#9146FF",
             "dark": "#9146FF"
           },
-          "hover": {
+          "brand-hover": {
             "light": "#782CE8",
             "dark": "#782CE8"
           },
-          "pressed": {
+          "brand-pressed": {
             "light": "#9146FF",
             "dark": "#9146FF"
           },
-          "secondary": {
+          "brand-secondary": {
             "light": "#5C16C5",
             "dark": "#5C16C5"
           },
-          "tertiary": {
+          "brand-tertiary": {
             "light": "#D7C9F7",
             "dark": "#5C16C5"
           },
-          "selected": {
+          "brand-selected": {
             "light": "#EAE4FA",
             "dark": "#5C16C5"
           }
         },
-        "success": {
-          "default": {
+        "bg-success": {
+          "success-default": {
             "light": "#14AE5C",
             "dark": "#14AE5C"
           },
-          "hover": {
+          "success-hover": {
             "light": "#009951",
             "dark": "#009951"
           },
-          "pressed": {
+          "success-pressed": {
             "light": "#009951",
             "dark": "#009951"
           },
-          "secondary": {
+          "success-secondary": {
             "light": "#008043",
             "dark": "#008043"
           },
-          "tertiary": {
+          "success-tertiary": {
             "light": "#CFF7D3",
             "dark": "#024626"
           }
         },
-        "warning": {
-          "default": {
+        "bg-warning": {
+          "warning-default": {
             "light": "#FFCD29",
             "dark": "#FFCD29"
           },
-          "hover": {
+          "warning-hover": {
             "light": "#FFCD29",
             "dark": "#FFCD29"
           },
-          "pressed": {
+          "warning-pressed": {
             "light": "#FFC21A",
             "dark": "#FFC21A"
           },
-          "secondary": {
+          "warning-secondary": {
             "light": "#FAB815",
             "dark": "#FAB815"
           },
-          "tertiary": {
+          "warning-tertiary": {
             "light": "#FFF1C2",
             "dark": "#DD940E"
           }
         },
-        "danger": {
-          "default": {
+        "bg-danger": {
+          "danger-default": {
             "light": "#EF4444",
             "dark": "#EF4444"
           },
-          "hover": {
+          "danger-hover": {
             "light": "#DC2626",
             "dark": "#DC2626"
           },
-          "pressed": {
+          "danger-pressed": {
             "light": "#DC2626",
             "dark": "#DC2626"
           },
-          "secondary": {
+          "danger-secondary": {
             "light": "#B91C1C",
             "dark": "#B91C1C"
           },
-          "tertiary": {
+          "danger-tertiary": {
             "light": "#FECACA",
             "dark": "#7F1D1D"
           }
         },
-        "info": {
-          "default": {
+        "bg-info": {
+          "info-default": {
             "light": "#0D99FF",
             "dark": "#0D99FF"
           },
-          "hover": {
+          "info-hover": {
             "light": "#007BE5",
             "dark": "#007BE5"
           },
-          "pressed": {
+          "info-pressed": {
             "light": "#0768CF",
             "dark": "#0768CF"
           },
-          "tertiary": {
+          "info-tertiary": {
             "light": "#E5F4FF",
             "dark": "#093077"
           }
