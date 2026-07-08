@@ -1,0 +1,31 @@
+export const tokens = {
+  "colorTextPrimary": {"light":"#111111","dark":"#ffffff"},
+  "colorTextSecondary": {"light":"#666666","dark":"#b3b3b3"},
+  "colorTextDisabled": {"light":"#999999","dark":"rgba(255, 255, 255, 0.2)"},
+  "colorIconPrimary": {"light":"#111111","dark":"#ffffff"},
+  "colorIconDisabled": {"light":"#999999","dark":"rgba(255, 255, 255, 0.2)"},
+  "colorBgSurface": {"light":"#ffffff","dark":"#0a0a0a"},
+  "colorBgActive": {"light":"rgba(0, 0, 0, 0.06)","dark":"rgba(255, 255, 255, 0.1)"},
+  "colorStrokeDefault": {"light":"rgba(0, 0, 0, 0.12)","dark":"rgba(255, 255, 255, 0.16)"},
+  "dimensionStroke1": {"value":"1px"},
+  "dimensionStroke05": {"value":"0.5px"},
+  "dimensionRadiusSm": {"value":"4px"},
+  "dimensionRadiusMd": {"value":"8px"},
+  "dimensionSpacing2": {"value":"2px"},
+  "dimensionSpacing4": {"value":"4px"},
+  "dimensionSpacing8": {"value":"8px"},
+  "dimensionSpacing12": {"value":"12px"},
+  "dimensionSpacing16": {"value":"16px"},
+  "dimensionFontsizeBody": {"value":"13px"},
+  "dimensionFontsizeTitle": {"value":"18px"},
+  "dimensionLineheightBody": {"value":"20px"},
+  "dimensionLineheightTitle": {"value":"24px"},
+  "numberFontweightRegular": {"value":400},
+  "numberFontweightMedium": {"value":500},
+  "numberFontweightSemibold": {"value":600},
+  "numberOpacityDisabled": {"value":0.2},
+  "shadowXs": {"value":{"x":0,"y":1,"blur":2,"spread":0,"color":"rgba(0, 0, 0, 0.12)"}},
+  "shadowSm": {"value":{"x":0,"y":2,"blur":8,"spread":0,"color":"rgba(0, 0, 0, 0.16)"}}
+} as const;
+
+export type MLSTokenName = keyof typeof tokens;

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "source": "MLS-Designsystem",
+    "figmaFileKey": "fabhdfgzrCDrDGaAX7CLIG",
+    "syncedAt": "2026-07-08T00:00:00.000Z",
+    "note": "Initial sample source. Replace with live Figma variables during the first sync."
+  },
+  "modes": ["light", "dark"],
+  "tokens": {
+    "color": {
+      "text": {
+        "primary": {
+          "light": "#111111",
+          "dark": "#ffffff"
+        },
+        "secondary": {
+          "light": "#666666",
+          "dark": "#b3b3b3"
+        },
+        "disabled": {
+          "light": "#999999",
+          "dark": "rgba(255, 255, 255, 0.2)"
+        }
+      },
+      "icon": {
+        "primary": {
+          "light": "#111111",
+          "dark": "#ffffff"
+        },
+        "disabled": {
+          "light": "#999999",
+          "dark": "rgba(255, 255, 255, 0.2)"
+        }
+      },
+      "bg": {
+        "surface": {
+          "light": "#ffffff",
+          "dark": "#0a0a0a"
+        },
+        "active": {
+          "light": "rgba(0, 0, 0, 0.06)",
+          "dark": "rgba(255, 255, 255, 0.1)"
+        }
+      },
+      "stroke": {
+        "default": {
+          "light": "rgba(0, 0, 0, 0.12)",
+          "dark": "rgba(255, 255, 255, 0.16)"
+        }
+      }
+    },
+    "dimension": {
+      "stroke": {
+        "0_5": "0.5px",
+        "1": "1px"
+      },
+      "radius": {
+        "sm": "4px",
+        "md": "8px"
+      },
+      "spacing": {
+        "2": "2px",
+        "4": "4px",
+        "8": "8px",
+        "12": "12px",
+        "16": "16px"
+      },
+      "fontSize": {
+        "body": "13px",
+        "title": "18px"
+      },
+      "lineHeight": {
+        "body": "20px",
+        "title": "24px"
+      }
+    },
+    "number": {
+      "fontWeight": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600
+      },
+      "opacity": {
+        "disabled": 0.2
+      }
+    },
+    "shadow": {
+      "xs": {
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "sm": {
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0.16)"
+      }
+    }
+  }
+}
+

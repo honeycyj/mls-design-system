@@ -1,0 +1,59 @@
+:root {
+  --mls-color-text-primary: #111111;
+  --mls-color-text-secondary: #666666;
+  --mls-color-text-disabled: #999999;
+  --mls-color-icon-primary: #111111;
+  --mls-color-icon-disabled: #999999;
+  --mls-color-bg-surface: #ffffff;
+  --mls-color-bg-active: rgba(0, 0, 0, 0.06);
+  --mls-color-stroke-default: rgba(0, 0, 0, 0.12);
+  --mls-dimension-stroke-1: 1px;
+  --mls-dimension-stroke-0-5: 0.5px;
+  --mls-dimension-radius-sm: 4px;
+  --mls-dimension-radius-md: 8px;
+  --mls-dimension-spacing-2: 2px;
+  --mls-dimension-spacing-4: 4px;
+  --mls-dimension-spacing-8: 8px;
+  --mls-dimension-spacing-12: 12px;
+  --mls-dimension-spacing-16: 16px;
+  --mls-dimension-fontsize-body: 13px;
+  --mls-dimension-fontsize-title: 18px;
+  --mls-dimension-lineheight-body: 20px;
+  --mls-dimension-lineheight-title: 24px;
+  --mls-number-fontweight-regular: 400;
+  --mls-number-fontweight-medium: 500;
+  --mls-number-fontweight-semibold: 600;
+  --mls-number-opacity-disabled: 0.2;
+  --mls-shadow-xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+  --mls-shadow-sm: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+[data-theme="dark"] {
+  --mls-color-text-primary: #ffffff;
+  --mls-color-text-secondary: #b3b3b3;
+  --mls-color-text-disabled: rgba(255, 255, 255, 0.2);
+  --mls-color-icon-primary: #ffffff;
+  --mls-color-icon-disabled: rgba(255, 255, 255, 0.2);
+  --mls-color-bg-surface: #0a0a0a;
+  --mls-color-bg-active: rgba(255, 255, 255, 0.1);
+  --mls-color-stroke-default: rgba(255, 255, 255, 0.16);
+  --mls-dimension-stroke-1: 1px;
+  --mls-dimension-stroke-0-5: 0.5px;
+  --mls-dimension-radius-sm: 4px;
+  --mls-dimension-radius-md: 8px;
+  --mls-dimension-spacing-2: 2px;
+  --mls-dimension-spacing-4: 4px;
+  --mls-dimension-spacing-8: 8px;
+  --mls-dimension-spacing-12: 12px;
+  --mls-dimension-spacing-16: 16px;
+  --mls-dimension-fontsize-body: 13px;
+  --mls-dimension-fontsize-title: 18px;
+  --mls-dimension-lineheight-body: 20px;
+  --mls-dimension-lineheight-title: 24px;
+  --mls-number-fontweight-regular: 400;
+  --mls-number-fontweight-medium: 500;
+  --mls-number-fontweight-semibold: 600;
+  --mls-number-opacity-disabled: 0.2;
+  --mls-shadow-xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+  --mls-shadow-sm: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}

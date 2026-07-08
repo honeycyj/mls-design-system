@@ -1,0 +1,10 @@
+<resources>
+  <color name="mls_color_text_primary">#111111</color>
+  <color name="mls_color_text_secondary">#666666</color>
+  <color name="mls_color_text_disabled">#999999</color>
+  <color name="mls_color_icon_primary">#111111</color>
+  <color name="mls_color_icon_disabled">#999999</color>
+  <color name="mls_color_bg_surface">#ffffff</color>
+  <color name="mls_color_bg_active">#0F000000</color>
+  <color name="mls_color_stroke_default">#1F000000</color>
+</resources>

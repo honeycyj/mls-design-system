@@ -1,0 +1,17 @@
+{
+  "name": "@mls/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MLS cross-platform design tokens generated from Figma variables.",
+  "scripts": {
+    "build:tokens": "node scripts/build-tokens.js",
+    "check:tokens": "npm run build:tokens && git diff --exit-code"
+  },
+  "files": [
+    "tokens/build"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
+
